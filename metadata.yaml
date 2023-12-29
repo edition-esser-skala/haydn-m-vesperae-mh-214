@@ -1,0 +1,18 @@
+composer:
+  last: Haydn
+  first: Johann Michael
+title: Vesperæ de Confessore
+id: MH 214
+genre: vesper
+scoring: S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-RB
+    shelfmark: Kasten IV, fasc. 95
+    date: 1775
+    license: public domain
+    principal: true
+imslp:
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
