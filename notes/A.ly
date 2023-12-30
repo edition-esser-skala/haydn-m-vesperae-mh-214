@@ -153,3 +153,77 @@ BeatusAltoLyrics = \lyricmode {
   rum, a --
   men. %19 finis
 }
+
+LaudateAlto = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoLaudate
+    R1*3
+    r8 \mvTr fis4\fE^\tuttiE fis8 g e16([ fis)] g8 e16 e
+    e e d8 fis16 fis h a a8 gis a8.([ cis16)] %5
+    cis8. h16 a8 cis4 h16([ a)] a8 gis
+    a4 r r2
+    r r8 a, a16([ cis)] cis([ e)]
+    fis4. fis8 e e16 e d4
+    cis r r cis' %10
+    r8 g! g g g fis16 e fis8 e
+    e4( d) cis r
+    r h'8 d e,4~ e16 e d8
+    d8. cis16 cis4 r2
+    g'16([ a h a] g[ fis)] e([ d)] cis8 cis h h' %15
+    h4( ais) h r
+    r2 fis8. fis16 fis8 fis
+    g fis r fis g fis e8. e16
+    d8 fis4 fis8 h4. a16([ gis?)]
+    a8 r16 e_( fis[ gis a h] cis8) h16 a h8. h16 %20
+    a4 r r2
+    a8 a h a gis2
+    a4( h16) h a8 a gis h a16([ gis)]
+    fis([ eis)] fis([ gis)] a4~ a16[ gis] fis([ gis)] a4~
+    a8 gis16 fis fis8([ eis)] fis4 r %25
+    r2 a4. a16 a
+    h8 a r4 e!4. e16 e
+    fis fis e8 r4 e4. e8
+    a fis16 fis e4 d r
+    r8 fis4 g16([ a)] a8 g r4 %30
+    r8 gis4 a16([ h)] h a a8 r4
+    r8 e fis e e d d cis
+    cis h16 h h8 a a^\critnote fis' e4(
+    fis e) d r\fermata \bar "|." %34 finis
+  }
+}
+
+LaudateAltoLyrics = \lyricmode {
+  Ex hoc nunc et us -- que in
+  sae -- cu -- lum, us -- que ad oc -- ca -- sum lau -- %5 %3
+  da -- bi -- le no -- men Do -- mi --
+  ni.
+
+  Et su -- per
+  coe -- los glo -- ri -- a e --
+  ius. Quis, %10
+  quis si -- cut Do -- mi -- nus De -- us
+  no -- ster,
+  et hu -- mi -- li -- a
+  re -- spi -- cit,
+  et __ in ter -- ra, et in %15
+  ter -- ra?
+  Su -- sci -- tans a
+  ter -- ra, a ter -- ra in -- o --
+  pem, et de ster -- co --
+  re e -- ri -- gens pau -- pe -- %20
+  rem,
+  cum prin -- ci -- pi -- bus,
+  po -- pu -- li su -- i, ma -- trem,
+  ma -- trem fi -- li -- o --
+  rum lae -- tan -- tem. %25
+  Glo -- ri -- a
+  Pa -- tri, glo -- ri -- a
+  Fi -- li -- o et Spi --
+  ri -- tu -- i San -- cto,
+  si -- cut e -- rat %30
+  in prin -- ci -- pi -- o
+  et nunc et sem -- per et in
+  sae -- cu -- la sae -- cu -- lo -- rum, a --
+  men. %34 finis
+}

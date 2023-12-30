@@ -82,3 +82,37 @@ BeatusViolinoII = {
     <f c f,> r r2\fermata \bar "|." %19 finis
   }
 }
+
+LaudateViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoLaudate
+    <d a' fis'>4\fE r q r
+    R1*2
+    fis4 r8 fis g4 r8 e
+    e( d) fis h16 a a8 gis a cis
+    cis8. h16 a8 cis cis h16 a a8 gis
+    <a e a,>4 r r8 cis d h
+    <a e a,>4 r r2
+    e'8 d16 cis d4. cis8 cis h
+    a4 r8 <e h' gis'> <e cis' a'>4 r %10
+    q r r2
+    R1*4 %15
+    r2 <fis d' h'>4 r
+    r8 h cis ais h4 r
+    r8 d e d r2
+    R1*2 %20
+    <e, cis' a'>4 r8 <e h' gis'> <e cis' a'>4 r
+    R1*3
+    r2 <fis cis' a'>4 r %25
+    r8 fis' gis eis <fis a, fis>4 r8 a,
+    h a h a <e'! cis e,! a,>4 r8 e,
+    fis e fis e <e' cis e, a,>4 r
+    r2 <d fis, a,>4 r8 <cis e, a,>
+    <d fis, a,>4 r <g h, d, g,> r8 <fis a, d,> %30
+    <g h, d, g,>4 r <a cis, e,> r8 <gis h, e,>
+    <a cis, e,> cis, fis16 fis e e e e d d d d cis cis
+    cis cis h h h h a a fis8 d' d cis
+    d4 <e cis a> <fis a, d,> r\fermata \bar "|." %34 finis
+  }
+}

@@ -153,3 +153,81 @@ BeatusBassFigures = \figuremode {
   <6 5>4 <4>8 <3> r2
   r1 %19 finis
 }
+
+LaudateOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \tempoLaudate
+    \mvTr d4\fE-\tuttiE r d r
+    d8 fis a a, h d fis fis,
+    g' h d d, e e a a
+    d,4 r8 d e4 r8 cis
+    d4. dis8 e4 r8 a %5
+    gis e a a, gis' a e e,
+    a4 r r8 a' d, e
+    a, a16 h cis8 h a h cis a
+    d e fis d a a' h e,
+    a4 h8 e, a4 r %10
+    a,8 e'16 d cis8 h ais4. ais'8
+    h h eis, eis fis e d cis
+    h cis d e16 fis g4 g,
+    fis'8 fis, fis' ais h4 r8 dis,
+    e16 fis g fis e d cis h ais8 ais' h g %15
+    fis e fis fis, h4 r
+    r8 h' e, fis h,4 r8 h'
+    ais h ais h ais h4 ais8
+    h h, h' a g fis e4
+    a, r a8 a' h e, %20
+    a, a' h e, a, a' cis a
+    h2 e,
+    a8 fis d dis e e, r eis'
+    fis4 r16 fis eis cis fis4 r16 fis eis cis
+    fis8 h cis cis, fis4 r %25
+    r8 fis h, cis fis, fis' fis fis
+    eis fis eis fis a, a' a a
+    gis a gis a r a, a' g
+    fis d d cis d4 e8 a,
+    d d fis d g4 a8 d, %30
+    g e gis e a4 h8 e,
+    a, a'4 g fis e8~
+    e d4 cis8 d fis16 g a8 a,
+    d4 a d, r\fermata \bar "|." %34 finis
+  }
+}
+
+LaudateBassFigures = \figuremode {
+  r1
+  r4 <4>8 <3> <9> <6> <4> <3>
+  <9> <6> <4> <3> <9 [4]>4 <7>
+  r2 <7>8 <6>4 <6 5>8
+  <9 4> <8 4>4 <7 5>8 <6 4> <5 _+>4. %5
+  <6 4>8 <7 _+>4. <[6 4]>4 <6 4>8 <5 _+>
+  r2. <6>8 <_+>
+  r4 <6>2 q4
+  <9> <6> <4>8 <3> <9> <7 _+>
+  r4 <9 4>8 <7 [_+]> r2 %10
+  r4 <6\\ 5[!]> <7 5> <6 4>8 <5 3>
+  <[9 4]>4 <7 _+> <_+>8 <\t> <6> <6\\>
+  r <6\\> <6>4 q2
+  <6 4>4 <[5] _+>8 <6>2 <6 5[!]>8
+  r2 <7>4. <6>8 %15
+  <6 4>4 <5 _+>2.
+  r4 <6>8 <_+> r2
+  <7>4 q q8 <5 3> <4 2> <\t \t>
+  r2 <6 5>4 <7 _+>
+  r2. <7>8 <7 _+> %20
+  r4 <9 4>8 <7 [_+]>4. <6>4
+  <7>2 <7 _+>
+  r4 <8 6>8 <7 5> <6 4> <5 _+>4 <[6 _+]>8
+  r4. <6 5 [_+]>2 <[6 5 _+]>8
+  r4 <6 4>8 <5\+ _+> r2 %25
+  r4 <8 6\\>8 <5\+ _+> r2
+  <7 _+>4 q <[5!]>2
+  <7>4 q2 <4 2>4
+  <6>8 <3> <2> <\t> r4 <9 4>8 <7 5>
+  r4 <6>8 <7!> \bo <[9 4!]> \bc <[8 3]> <9 4> <7[!] 5> %30
+  r <7 _+>4. \bo <[9 4]>8 \bc <[8 _+]> <9 4> <7 5 [_+]>
+  <3>4 <2>8 <6> <2> <6> <2> <6>
+  <2> <6> <2> <6>4 q8 <4> <3>
+  r1 %34 finis
+}

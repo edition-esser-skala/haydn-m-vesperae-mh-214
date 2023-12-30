@@ -154,3 +154,65 @@ BeatusBassoLyrics = \lyricmode {
   rum, a --
   men. %19 finis
 }
+
+LaudateBasso = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \autoBeamOff \tempoLaudate
+    r2 r8 \mvTr d\fE^\tuttiE fis a
+    d4. d16 cis cis8 h h a
+    a g g fis fis4( e8) e
+    d4 r r r8 a'
+    d d, r dis e e, r4 %5
+    r8 e' a a, r2
+    r8 a' a a a8.([ gis32 a] h16) h gis8
+    a16 gis a8 r4 r2
+    R1
+    r8 cis cis([ h)] a4 r %10
+    R1*5 %15
+    r2 r8 h h h
+    h4( cis16) cis ais?8 h16 ais h8 r4
+    R1*3 %20
+    r8 cis cis([ h)] a4 r
+    R1*3
+    r2 r8 fis fis fis %25
+    fis4( gis?16) gis eis8 fis16 eis fis8 r4
+    r8. a16 h8 a r2
+    r8. cis16 d8 cis r2
+    r r8 a a([ g)]
+    fis4 r r8. h16 h8([ a)] %30
+    g4 r r8. cis!16 cis8([ h)]
+    a a4 g!8 g fis fis e
+    e d16 d d8 cis d([ fis16)] g a4(
+    d a) d, r\fermata \bar "|." %34 finis
+  }
+}
+
+LaudateBassoLyrics = \lyricmode {
+  Lau -- da -- te
+  pu -- e -- ri Do -- mi -- num, lau --
+  da -- te no -- men Do -- mi --
+  ni, lau --
+  da -- te, lau -- da -- te, %5
+  lau -- da -- te,
+  lau -- da -- te pu -- e -- ri
+  Do -- mi -- num,
+
+  lau -- da -- te, %10
+
+  lau -- da -- te %16
+  pu -- e -- ri Do -- mi -- num,
+
+  lau -- da -- te, %21
+
+  lau -- da -- te %25
+  pu -- e -- ri Do -- mi -- num,
+  lau -- da -- te,
+  lau -- da -- te,
+  lau -- da --
+  te, lau -- da -- %30
+  te, lau -- da --
+  te nunc et sem -- per et in
+  sae -- cu -- la sae -- cu -- lo -- rum, a --
+  men. %34 finis
+}

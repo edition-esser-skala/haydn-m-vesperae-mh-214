@@ -153,3 +153,65 @@ BeatusTenoreLyrics = \lyricmode {
   rum, a --
   men. %19 finis
 }
+
+LaudateTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 4/4 \autoBeamOff \tempoLaudate
+    r8 \mvTr d,\fE^\tuttiE fis a d8. d,16 d8 r
+    fis'8. fis16 e4 d8. d16 cis8 cis
+    h h a a \appoggiatura a4 g4. g8
+    fis4 r r r8 cis'
+    d a r fis e e r4 %5
+    r8 gis a e r2
+    r8 cis' cis cis cis4( d16) d h8
+    cis16 h a8 r4 r2
+    R1
+    r8 e' e([ d)] cis4 r %10
+    R1*5 %15
+    r2 r8 d d d
+    d4( e16) e cis8 d16 cis h8 r4
+    R1*3 %20
+    r8 e e([ d)] cis4 r
+    R1*3
+    r2 r8 a a a %25
+    a4( h16) h gis8 a16 gis fis8 r4
+    r8. cis'16 d8 cis r2
+    r8. e!16 fis8 e r2
+    r r8 fis fis([ e)]
+    d4 r r8. d16 d8([ c?)] %30
+    h4 r r8. e16 e8([ d)]
+    cis!4 h8 h a a g g
+    fis fis16 fis e8 e' a, a a4~
+    a2 a4 r\fermata \bar "|." %34 finis
+  }
+}
+
+LaudateTenoreLyrics = \lyricmode {
+  Lau -- da -- te pu -- e -- ri,
+  pu -- e -- ri Do -- mi -- num, lau --
+  da -- te no -- men Do -- mi --
+  ni, lau --
+  da -- te, lau -- da -- te, %5
+  lau -- da -- te,
+  lau -- da -- te pu -- e -- ri
+  Do -- mi -- num,
+
+  lau -- da -- te, %10
+
+  lau -- da -- te %16
+  pu -- e -- ri Do -- mi -- num,
+
+  lau -- da -- te, %21
+
+  lau -- da -- te %25
+  pu -- e -- ri Do -- mi -- num,
+  lau -- da -- te,
+  lau -- da -- te,
+  lau -- da --
+  te, lau -- da -- %30
+  te, lau -- da --
+  te nunc et sem -- per et in
+  sae -- cu -- la sae -- cu -- lo -- rum, a --
+  men. %34 finis
+}

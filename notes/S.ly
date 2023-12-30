@@ -154,28 +154,79 @@ BeatusSopranoLyrics = \lyricmode {
   men. %19 finis
 }
 
+LaudateSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoLaudate
+    R1*3
+    r8 \mvTr d'\fE^\tuttiE d d d cis16 d e8 g,
+    g fis16 fis' d([ e)] d([ cis)] cis8 h cis8.([ e16)] %5
+    e8. d16 cis8 e4 d16([ cis)] cis8 h
+    a4 r r2
+    r8 a a16([ h)] cis([ d)] e4. e8
+    e([^\critnote d16 cis)] d4 d8 cis cis h
+    a4 r r e' %10
+    r8 e e e e d16 cis d8 cis
+    \appoggiatura cis4 h2\trill^\critnote ais4 fis8 fis
+    fis'2( e8[ d)] cis[( h)]
+    h8. ais16 ais8 cis d16[ h cis d] \appoggiatura fis32 e16[ dis e fis]
+    g2~ g8 fis16([ e)] d8 e %15
+    d4( cis)\trill h r
+    r2 d8. d16 d8 d
+    e d r d e d cis8. cis16
+    h8 d4 d8 d4. cis16 h
+    cis[ e, fis gis] a[ h cis d] e8 d16 cis d8. d16 %20
+    cis4 r r8 a a h16 cis
+    d4 d d8 d e d16 d
+    cis8([ h16 cis] d) d cis8 cis h16 h d8([ cis16)] h
+    a([ gis)] a([ h)] cis8 cis cis16([ h)] a([ h)] cis4~
+    cis8 h16([ a)] a8([ gis)] fis4 r %25
+    r2 cis'4. cis16 cis
+    d8 cis r4 cis4. cis16 cis
+    d d cis8 r4 cis4. cis8
+    d a16 a a8([ g)] fis4 r
+    r8 a4 h16([ c)] c8 h r4 %30
+    r8 h4 cis16([ d)] d cis cis8 r4
+    r8 cis d e cis d h cis
+    a h16 h g8 a fis d' d8([ cis)]
+    d4 cis d r\fermata \bar "|." %34 finis
+  }
+}
 
+LaudateSopranoLyrics = \lyricmode {
+  Sit no -- men Do -- mi -- ni be -- ne -- %4
+  di -- ctum, a so -- lis or -- tu lau -- %5
+  da -- bi -- le no -- men Do -- mi --
+  ni.
+  Ex -- cel -- sus su -- per
+  o -- mnes gen -- tes Do -- mi --
+  nus. Quis, %10
+  quis si -- cut Do -- mi -- nus De -- us
+  no -- ster, qui in
+  al -- tis __
+  ha -- bi -- tat, in coe -- _
+  _ lo et in %15
+  ter -- ra?
+  Su -- sci -- tans a
+  ter -- ra, a ter -- ra in -- o --
+  pem, et de ster -- co -- re
+  e -- _ _ ri -- gens pau -- pe -- %20
+  rem, ut col -- lo -- cet
+  e -- um cum prin -- ci -- pi -- bus,
+  po -- pu -- li su -- i, qui ha -- bi --
+  ta -- re fa -- cit ste -- ri -- lem __
+  in do -- mo. %25
+  Glo -- ri -- a
+  Pa -- tri, glo -- ri -- a
+  Fi -- li -- o et Spi --
+  ri -- tu -- i San -- cto,
+  si -- cut e -- rat %30
+  in prin -- ci -- pi -- o
+  et nunc et sem -- per et in
+  sae -- cu -- la sae -- cu -- lo -- rum, a --
+  men, a -- men. %34 finis
+}
 
-
-% Lau -- da -- te pu -- e -- ri Do -- mi -- num:
-% Lau -- da -- te no -- men Do -- mi -- ni.
-% Sit no -- men Do -- mi -- ni be -- ne -- di -- ctum,
-% ex hoc nunc et us -- que in sae -- cu -- lum.
-% A so -- lis or -- tu us -- que ad oc -- ca -- sum,
-% lau -- da -- bi -- le no -- men Do -- mi -- ni.
-% Ex -- cel -- sus su -- per o -- mnes gen -- tes Do -- mi -- nus,
-% su -- per coe -- los glo -- ri -- a e -- ius.
-% Quis si -- cut Do -- mi -- nus De -- us no -- ster, qui in al -- tis ha -- bi -- tat,
-% et hu -- mi -- li -- a re -- spi -- cit in coe -- lo et in ter -- ra?
-% Su -- sci -- tans a ter -- ra in -- o -- pem,
-% et de ster -- co -- re e -- ri -- gens pau -- pe -- rem.
-% Ut col -- lo -- cet e -- um cum prin -- ci -- pi -- bus,
-% cum prin -- ci -- pi -- bus po -- pu -- li su -- i.
-% Qui ha -- bi -- ta -- re fa -- cit ste -- ri -- lem in do -- mo,
-% ma -- trem fi -- li -- o -- rum lae -- tan -- tem.
-% Glo -- ri -- a Pa -- tri et Fi -- li -- o et Spi -- ri -- tu -- i San -- cto,
-% si -- cut e -- rat in prin -- ci -- pi -- o et nunc et sem -- per
-% et in sae -- cu -- la sae -- cu -- lo -- rum, a -- men.
 
 % Lau -- da -- te Do -- mi -- num, o -- mnes gen -- tes,
 % col -- lau -- da -- te e -- um, o -- mnes po -- pu -- li.
