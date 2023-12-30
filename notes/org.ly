@@ -105,3 +105,51 @@ ConfiteborBassFigures = \figuremode {
   r2 q4
   r2. %29 finis
 }
+
+BeatusOrgano = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \tempoBeatus
+    \mvTr f,8\fE-\tuttiE f' a f e c d e
+    f f a f b, c d e
+    f f, f' e d g, g' f
+    e d16 c h8 c g g' h g
+    c g16 a h8 g c e,16 f g8 g, %5
+    c c'16 h c8 c, h h'16 a h8 g
+    c, c'16 h c8 g c g g fis
+    g g, f! f' e e d d'
+    c d e e, a, a' c a
+    e' e, gis h e, e gis e %10
+    a, a'16 gis a8 a, g! g' g g
+    f f d c! h c g' g,
+    c c c' h c g a gis
+    a e f e f e d d
+    c c' c c b! b b b %15
+    a a, f^\critnote f' e4 d
+    c b a g'8 f
+    e f c' c, f4 c
+    f, r r2\fermata \bar "|." %19 finis
+  }
+}
+
+BeatusBassFigures = \figuremode {
+  r2 <6>4 <7>8 <5>
+  r2 <10>8 <8 6> <\t \t> <5 3>
+  r2 <6!>8 <7 _!>4 <4! 2>8
+  <6>4 <6 5> \bo <[6 4]>8 <5 _!>4.
+  r8 \bc <[_! _]>2 <6>8 <4> <_!> %5
+  r2 <6 5>4. <7 [_!]>8
+  r4. <_!>4 q8 <4 2> <6>
+  <_!>4 <4[!] 2> <7 5! _+> <6[!] 4\+ 3>
+  <6>8 <6[!] 5> \bo <[5!] 4> \bc <[\t] _+> r2
+  \bo <[6] 4>8 \bc <[5!] _+>4. <7 5! _+>2 %10
+  <9! 4>8 <8 3>4. <6 4\+ _->2
+  <6>4 <5>8 <\t> <6 5>4 <4>8 <_!>
+  r4. <6>4 <_!> <6 [_!]>8
+  r <6 5- [_!]>4 <6> q8 <7 5> <6! 4>
+  r2 <4 2> %15
+  <6>4 <[5]>8 <6> <7> <6> <7> <6>
+  <7> <6> <7> <6> <7> <6> <5 3> <\t \t>
+  <6 5>4 <4>8 <3> r2
+  r1 %19 finis
+}

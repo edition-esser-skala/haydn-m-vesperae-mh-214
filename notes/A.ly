@@ -105,3 +105,51 @@ ConfiteborAltoLyrics = \lyricmode {
   men, a --
   men. %28 finis
 }
+
+BeatusAlto = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \autoBeamOff \tempoBeatus
+    r4 \mvTr f8\fE^\tuttiE f g e f g
+    c, c f f d e16 e f8([ c)]
+    c4 c8 c f f16 f f8 g
+    g g16 g g8 g16 g g8 g16 g g8 g
+    g g g g16 g g8 g g8. g16 %5
+    g8 g16 g g g g g g8 g g g
+    g4 g8 g g g a8. a16
+    g8 g g g16 g gis8 gis gis gis16 gis
+    a8 a16 a a8 gis a a a a16 a
+    a8 gis r4 h8 h16 h h8 h %10
+    h a^\critnote e e e4. e8
+    f4 a8 a g g16 g g4
+    g g8 g16 g g8 g e e16 e
+    e e c8 c c f g16 g f4
+    e g8 g g g g g %15
+    f8. f16 f8 a g g f f
+    e e d d16 d c8 c d([ e16 f]
+    g8) f f8([ e] f4 e)
+    f r r2\fermata \bar "|." %19 finis
+  }
+}
+
+BeatusAltoLyrics = \lyricmode {
+  In man -- da -- tis e -- ius
+  vo -- let ni -- mis, be -- ne -- di -- ce --
+  tur, et iu -- sti -- ti -- a e -- ius
+  ma -- net in sae -- cu -- lum sae -- cu -- li, qui -- a
+  in ae -- ter -- num non com -- mo -- ve -- bi -- %5
+  tur, ab au -- di -- ti -- o -- ne ma -- la non ti --
+  me -- bit, do -- nec de -- spi -- ci --
+  at, iu -- sti -- ti -- a e -- ius ma -- net in
+  sae -- cu -- lum sae -- cu -- li, pec -- ca -- tor vi --
+  de -- bit, den -- ti -- bus su -- is %10
+  fre -- met, de -- si -- de -- ri --
+  um pec -- ca -- to -- rum per -- i --
+  bit, glo -- ri -- a Pa -- tri, glo -- ri -- a
+  Fi -- li -- o et Spi -- ri -- tu -- i San --
+  cto si -- cut e -- rat in prin -- %15
+  ci -- pi -- o et nunc et sem -- per
+  et in sae -- cu -- la sae -- cu -- lo --
+  rum, a --
+  men. %19 finis
+}

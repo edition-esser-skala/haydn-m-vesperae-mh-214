@@ -105,3 +105,97 @@ ConfiteborSopranoLyrics = \lyricmode {
   men, a --
   men. %28 finis
 }
+
+BeatusSoprano = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \autoBeamOff \tempoBeatus
+    \mvTr f2\fE^\tuttiE c'8 c c4
+    r c8 c d c c([ b)]
+    a4 a8 a16 a h8 h h8. h16
+    c8 d16([ e)] f8 e e d16 d d8 d
+    e d16 d d8 d e e16 e d8. d16 %5
+    c8 e16 e e e e e f8 f f f
+    e4 e8 d e d \appoggiatura d c8. c16
+    h8 h h h h4 h8 h
+    c( h4) h8 a c c c16 c
+    c8 h r4 d8 d16 d d8 d %10
+    d c c c cis4. cis8
+    d4 f8 f f e16 e d4
+    e e8 d16 d e8 d c h16 h
+    c c b8 a g a c16 c c8([ h)]
+    c4 e8 e e e e e %15
+    f8. c16 c8 d d c c b!
+    b a a g16 g g8 f b4~
+    b8 a g4( a g)
+    f r r2\fermata \bar "|." %19 finis
+  }
+}
+
+BeatusSopranoLyrics = \lyricmode {
+  Be -- a -- tus vir,
+  e -- rit se -- men e --
+  ius, glo -- ri -- a et di -- vi -- ti --
+  ae in __ do -- mo e -- ius, iu -- cun -- dus
+  ho -- mo qui mi -- se -- re -- tur et com -- mo -- %5
+  dat, in me -- mo -- ri -- a ae -- ter -- na e -- rit
+  iu -- stus, non com -- mo -- ve -- bi --
+  tur, dis -- per -- sit de -- dit pau --
+  e -- ri -- bus, pec -- ca -- tor vi --
+  de -- bit, den -- ti -- bus su -- is %10
+  fre -- met, de -- si -- de -- ri --
+  um pec -- ca -- to -- rum per -- i --
+  bit, glo -- ri -- a Pa -- tri, glo -- ri -- a
+  Fi -- li -- o et Spi -- ri -- tu -- i San --
+  cto si -- cut e -- rat in prin -- %15
+  ci -- pi -- o et nunc et sem -- per
+  et in sae -- cu -- la sae -- cu -- lo --
+  rum, a --
+  men. %19 finis
+}
+
+
+
+
+% Lau -- da -- te pu -- e -- ri Do -- mi -- num:
+% Lau -- da -- te no -- men Do -- mi -- ni.
+% Sit no -- men Do -- mi -- ni be -- ne -- di -- ctum,
+% ex hoc nunc et us -- que in sae -- cu -- lum.
+% A so -- lis or -- tu us -- que ad oc -- ca -- sum,
+% lau -- da -- bi -- le no -- men Do -- mi -- ni.
+% Ex -- cel -- sus su -- per o -- mnes gen -- tes Do -- mi -- nus,
+% su -- per coe -- los glo -- ri -- a e -- ius.
+% Quis si -- cut Do -- mi -- nus De -- us no -- ster, qui in al -- tis ha -- bi -- tat,
+% et hu -- mi -- li -- a re -- spi -- cit in coe -- lo et in ter -- ra?
+% Su -- sci -- tans a ter -- ra in -- o -- pem,
+% et de ster -- co -- re e -- ri -- gens pau -- pe -- rem.
+% Ut col -- lo -- cet e -- um cum prin -- ci -- pi -- bus,
+% cum prin -- ci -- pi -- bus po -- pu -- li su -- i.
+% Qui ha -- bi -- ta -- re fa -- cit ste -- ri -- lem in do -- mo,
+% ma -- trem fi -- li -- o -- rum lae -- tan -- tem.
+% Glo -- ri -- a Pa -- tri et Fi -- li -- o et Spi -- ri -- tu -- i San -- cto,
+% si -- cut e -- rat in prin -- ci -- pi -- o et nunc et sem -- per
+% et in sae -- cu -- la sae -- cu -- lo -- rum, a -- men.
+
+% Lau -- da -- te Do -- mi -- num, o -- mnes gen -- tes,
+% col -- lau -- da -- te e -- um, o -- mnes po -- pu -- li.
+% Quo -- ni -- am con -- fir -- ma -- ta est su -- per nos mi -- se -- ri -- cor -- di -- a e -- ius,
+% et ve -- ri -- tas Do -- mi -- ni ma -- net in ae -- ter -- num.
+% Glo -- ri -- a Pa -- tri et Fi -- li -- o et Spi -- ri -- tu -- i San -- cto,
+% si -- cut e -- rat in prin -- ci -- pi -- o et nunc et sem -- per
+% et in sae -- cu -- la sae -- cu -- lo -- rum, a -- men.
+
+% Ma -- gni -- fi -- cat a -- ni -- ma me -- a Do -- mi -- num,
+% et ex -- sul -- ta -- vit spi -- ri -- tus me -- us in De -- o sa -- lu -- ta -- ri me -- o.
+% Qui -- a re -- spe -- xit hu -- mi -- li -- ta -- tem an -- cil -- lae su -- ae.
+% Ec -- ce e -- nim ex hoc be -- a -- tam me di -- cent o -- mnes ge -- ne -- ra -- ti -- o -- nes.
+% Qui -- a fe -- cit mi -- hi ma -- gna, qui po -- tens est, et san -- ctum no -- men e -- ius.
+% Et mi -- se -- ri -- cor -- di -- a e -- ius a pro -- ge -- ni -- e in pro -- ge -- ni -- es ti -- men -- ti -- bus e -- um.
+% Fe -- cit po -- ten -- ti -- am in bra -- chi -- o su -- o, dis -- per -- sit su -- per -- bos men -- te cor -- dis su -- i.
+% De -- po -- su -- it po -- ten -- tes de se -- de et ex -- al -- ta -- vit hu -- mi -- les.
+% E -- su -- ri -- en -- tes im -- ple -- vit bo -- nis et di -- vi -- tes di -- mi -- sit in -- a -- nes.
+% Su -- sce -- pit Is -- ra -- el pu -- e -- rum su -- um, re -- cor -- da -- tus mi -- se -- ri -- cor -- di -- ae su -- ae.
+% Si -- cut lo -- cu -- tus est ad pa -- tres no -- stros, A -- bra -- ham et se -- mi -- ni e -- ius in sae -- cu -- la.
+% Glo -- ri -- a Pa -- tri et Fi -- li -- o et Spi -- ri -- tu -- i San -- cto,
+% si -- cut e -- rat in prin -- ci -- pi -- o et nunc et sem -- per
+% et in sae -- cu -- la sae -- cu -- lo -- rum, a -- men.

@@ -56,3 +56,29 @@ ConfiteborViolinoII = {
     a r r\fermata \bar "|." %29 finis
   }
 }
+
+BeatusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoBeatus
+    r4 r16 c'\fE b a g4 r16 c g' b
+    a4 r16 c, f a d,4 r16 c g' b
+    a4 r16 c, a' c, h'4 r16 h, g' h
+    c4 r16 f, e c' e,4 r16 d' g, d
+    e4 r16 d' g, d e4 r16 g h d, %5
+    c4 r16 g' e c g'4 r16 h f d
+    e4 r16 e d h e4 r16 e a c,
+    h4 r16 d g h d4 r16 f,! gis h
+    a4 r16 e gis h, a4 r16 e' a c,
+    h4 r16 e gis e h'4 r16 h gis d %10
+    a4 r16 c e a cis,4 r16 e g b
+    a4 r16 a, f' a g4 r16 f h f
+    e4 r16 g d g g,4 r16 e' h e
+    e,4 r16 c' g' c, a'4 r16 c, h f'
+    e4 r16 e c' e, c'4 r16 e, c' e, %15
+    f4 r16 c d a' g4 r16 c, b f'
+    e4 r16 a g d' c4 r16 d, b' d,
+    c4 r16 e g b a4 e
+    <f c f,> r r2\fermata \bar "|." %19 finis
+  }
+}

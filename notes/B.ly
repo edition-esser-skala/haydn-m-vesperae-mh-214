@@ -107,4 +107,50 @@ ConfiteborBassoLyrics = \lyricmode {
   men. %28 finis
 }
 
-% ma -- net in sae -- cu -- lum sae -- cu -- li.
+BeatusBasso = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \autoBeamOff \tempoBeatus
+    r8 \mvTr f\fE^\tuttiE a f e c d e
+    f f, f'4 b,8 c d([ e)]
+    f f f e d g g f
+    e d16 c h8([ c)] g4 h'8 g
+    c g h a16 g c8 e,16([ f)] g8. g16 %5
+    c,8 c'16 c c8 c h h h4
+    c c,8 g' c g g([ fis)]
+    g g16 g f8 f e e d d
+    c d e8. e16 a,4 r16 a' c a
+    e'8 e, r4 r r8 gis16 e %10
+    a8 a, a' a g4. g8
+    f4 d8 c! h c16 c g'4
+    c, c'8 h16 h c8 g a gis16 gis
+    a a e8 f e f e16 e d4
+    c c'8 c b! b b b %15
+    a8. a16 a8 f e e d d
+    c c b b16 b a8 a' g([ f]
+    e)] f c4( f c)
+    f, r r2\fermata \bar "|." %19 finis
+  }
+}
+
+BeatusBassoLyrics = \lyricmode {
+  Be -- a -- tus vir, po -- tens in
+  ter -- ra, be -- ne -- di -- ce --
+  tur, mi -- se -- ri -- cors et mi -- se --
+  ra -- tor et iu -- stus, qui -- a
+  in ae -- ter -- num non com -- mo -- ve -- bi -- %5
+  tur, con -- fir -- ma -- tum est cor e --
+  ius, in -- i -- mi -- cos su --
+  os, cor -- nu e -- ius ex -- al -- ta -- bi --
+  tur in glo -- ri -- a, et i -- ra --
+  sce -- tur, et ta -- %10
+  be -- scet, de -- si -- de -- ri --
+  um pec -- ca -- to -- rum per -- i --
+  bit, glo -- ri -- a Pa -- tri, glo -- ri -- a
+  Fi -- li -- o et Spi -- ri -- tu -- i San --
+  cto si -- cut e -- rat in prin -- %15
+  ci -- pi -- o et nunc et sem -- per
+  et in sae -- cu -- la sae -- cu -- lo --
+  rum, a --
+  men. %19 finis
+}

@@ -105,3 +105,51 @@ ConfiteborTenoreLyrics = \lyricmode {
   men, a --
   men. %28 finis
 }
+
+BeatusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key f \major \time 4/4 \autoBeamOff \tempoBeatus
+    r8 \mvTr a\fE^\tuttiE f a g( c4) b8
+    a a16 a a8 a f a a([ g)]
+    f a a a g g d'8. d16
+    c4 d8 c c h16 h h8 h16 h
+    c8 h h^\critnote h c c c h %5
+    c c c c16 c d8 d16 d d8 d16 d
+    c8 c16 c c8 h c h? e([ d)]
+    d d16 d d8 d d d f f
+    e f e8. e16 e4 r16 e e e
+    e8 e r4 r r8 e16 e %10
+    e8 e a, a b!4. b8
+    a4 d8 d d c16 c c8([ h)]
+    c4 c8 d16 d c8 h a h16 h
+    a a g!8 f c' c c16 c a8([ g)]
+    g4 c8 c c c c c %15
+    c8. c16 c8 a b g a f
+    e e f d16 d e8 f d'4(
+    c8) c c2.
+    c4 r r2\fermata \bar "|." %19 finis
+  }
+}
+
+BeatusTenoreLyrics = \lyricmode {
+  Qui ti -- met Do -- mi --
+  num, ge -- ne -- ra -- ti -- o re -- cto --
+  rum, ex -- or -- tum est in te -- ne --
+  bris lu -- men re -- ctis, dis -- po -- net ser --
+  mo -- nes su -- os in iu -- di -- ci -- %5
+  o, pa -- ra -- tum cor e -- ius spe -- ra -- re in
+  Do -- mi -- no, in -- i -- mi -- cos su --
+  os, cor -- nu e -- ius ex -- al -- ta -- bi --
+  tur in glo -- ri -- a, et i -- ra --
+  sce -- tur, et ta -- %10
+  be -- scet, de -- si -- de -- ri --
+  um pec -- ca -- to -- rum per -- i --
+  bit, glo -- ri -- a Pa -- tri, glo -- ri -- a
+  Fi -- li -- o et Spi -- ri -- tu -- i San --
+  cto si -- cut e -- rat in prin -- %15
+  ci -- pi -- o et nunc et sem -- per
+  et in sae -- cu -- la sae -- cu -- lo --
+  rum, a --
+  men. %19 finis
+}
