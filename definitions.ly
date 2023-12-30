@@ -7,6 +7,7 @@
 
 
 tempoDixit = \tempoMarkup "Allegro"
+tempoConfitebor = \tempoMarkup "Allegro"
 
 
 \include "notes/clno1.ly"

@@ -37,3 +37,71 @@ DixitBassFigures = \figuremode {
   r <6 5>2 <4>8 <3>
   r1 %14 finis
 }
+
+ConfiteborOrgano = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 3/4 \tempoConfitebor
+    \mvTr a8\fE-\tuttiE a'16 h c8 a gis e
+    a gis16 a a,8 a' h h,
+    c c'16 d e8 c h g
+    c, c'16 h c8 c, e c
+    f, f'16 g a8 f e c %5
+    f, f'16 e f8 es d c
+    b b'16 a b8 b, b h
+    c c'16 h c8 g e c
+    f c'16 h c8 f, e c
+    f c'16 h c8 f, e c %10
+    f b c c c, c
+    f, f'16 g a8 f e c
+    f, f'16 e f8 f, fis' d
+    g, g'16 a b8 g fis d
+    g, g'16 fis g8 g, g' gis %15
+    a, a'16 h cis8 a g g,
+    f f'16 e f8 f e d
+    g b a a a, a
+    d d'16 cis d8 d, f d
+    a a'16 gis a8 a, cis a %20
+    d d'16 cis d8 d, f d
+    d d' c c, h h'
+    a, a'16 gis a8 a, c a
+    e' e'16 dis e8 e, gis e
+    a, a'16 gis a8 a, c a %25
+    h h' e, e'16 dis e8 e,
+    a a, c a e' e,
+    a a'16 gis a8 a, e'4
+    a, r r\fermata \bar "|." %29 finis
+  }
+}
+
+ConfiteborBassFigures = \figuremode {
+  r2 <6>8 <7 _+>
+  r2 <[6!]>4
+  r2 <6 [5]>8 <7>
+  r2 <[6] 5->8 <7->
+  r2 <6 5->8 <7-> %5
+  r4. <4 2>8 <6[-] 3> <6 _->
+  r4. <9 7>8 <8 6> <[7 5]>
+  <6 4>4 <5 3> <6 5->8 <\t \t>
+  r2 \bo <[6] 5->4
+  r2 \bc q4 %10
+  r8 <6> <6 4>4 <5 3>
+  r2 \bo <[6] 5->8 \bc <[\t] \t>
+  r2 <6 5>8 <7 _+>
+  <_->2 <6 5>8 <7 _+>
+  <_->2 <6 5 _->8 <\t \t _!> %15
+  <_+>2 <4\+ 2>4
+  <6>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+  <_->8 <6> <6 4>4 <5 _+>
+  r2 <6>4
+  <6 4> <5 _+> <6 [5]>8 <7 _+> %20
+  <9 4>4 <8 3> <6>
+  <4\+ 2> <6> <7 5>8 <6\\>
+  r2 <6>4
+  <6 4>8 <[5] _+> r2
+  r2. %25
+  <9 4>8 <8 3> <7 _+>2
+  r4 <6> <4>8 <_+>
+  r2 q4
+  r2. %29 finis
+}

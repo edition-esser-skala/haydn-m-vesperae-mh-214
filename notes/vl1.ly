@@ -20,3 +20,39 @@ DixitViolinoI = {
     e4 d\trill c r\fermata \bar "|." %14 finis
   }
 }
+
+ConfiteborViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/4 \tempoConfitebor
+    a''16\fE e c d e a h c d h gis d
+    c4 a, r
+    c''16 g e f g c g e f d d' f,
+    e4 c, r
+    f'16 c a b c f g a b g e b %5
+    a4 a, r
+    b''16 d, c d b' d, c a' g b, a f'
+    f a, g a g8 c b'16 g e b
+    a c a' g a f c a b' g e b
+    a c a' g a f c a b' g e b %10
+    a f' g f a, f' f a, g e' e g,
+    f f' a b c c, f a b c, g' b
+    a4 f, r
+    d'16 g b c d d, g b c d, a' c
+    b4 g, r %15
+    a'16 e cis d e a cis, e a e d cis
+    d4 d, r
+    d''16 b a g f a d f, e a cis e,
+    d4 d, r
+    cis'16 a cis h cis e cis a a' a, g' a, %20
+    g'8 f d,4 r
+    gis'16 e h' gis a a, a' e d a' h d,
+    c!4 a, r
+    a''16 e gis e h' gis fis gis e d h' d,
+    c4 a, r %25
+    e''16 e d c gis' e a fis gis a h d,
+    c a c e a e d c h8 gis'
+    a4 r gis
+    a r r\fermata \bar "|." %29 finis
+  }
+}
