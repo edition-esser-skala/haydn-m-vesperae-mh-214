@@ -116,3 +116,22 @@ LaudateViolinoII = {
     d4 <e cis a> <fis a, d,> r\fermata \bar "|." %34 finis
   }
 }
+
+DominumViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoDominum
+    g'2\fE d'16 d, d d d' d, d c'
+    h8 a16  g fis8 g r16 c c c c e e e
+    r c c c h' h, h h r h h h a c c c
+    r a a a g' g, a a g h h h fis a a a
+    g h d g h g e d cis e e e e a e cis %5
+    d d d d d fis fis fis e e e e e d' cis e,
+    d fis, a d fis fis g a h h, h h h' h, a a'
+    g g, g g g g' fis g a a, a a a' a, g g'
+    fis8 h, c h a'16 a, a a a8 a
+    g'16 g, g g g g fis fis e e d d e c' c c %10
+    c a g h a a a a h h h h a fis' fis fis
+    g,4 r r2\fermata \bar "|." %12 finis
+  }
+}

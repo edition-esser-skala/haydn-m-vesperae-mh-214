@@ -216,3 +216,37 @@ LaudateBassoLyrics = \lyricmode {
   sae -- cu -- la sae -- cu -- lo -- rum, a --
   men. %34 finis
 }
+
+DominumBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \autoBeamOff \tempoDominum
+    r4 r8 \mvTr g'\fE^\tuttiE fis([ e] fis16) fis d8
+    g[ h a g] c,[ d e] fis
+    g4 r e fis
+    g8([ fis)] e([ c)] d([ c] d4)
+    g, g'8 fis16 fis e8 a, a' g16 g %5
+    fis8 d16 d h'8 a g e16 e a4
+    d, r r h8 c16([ d)]
+    e4. d8 c c a h16([ c)]
+    d4 r8 g a g fis fis
+    g fis e d16 d c8 h a g %10
+    fis' g d4( g d)
+    g, r r2\fermata \bar "|." %12 finis
+  }
+}
+
+DominumBassoLyrics = \lyricmode {
+  Et ve -- ri -- tas
+  Do -- _ mi --
+  ni ma -- net
+  in __ ae -- ter --
+  num, glo -- ri -- a Pa -- tri, glo -- ri -- a %5
+  Fi -- li -- o et Spi -- ri -- tu -- i San --
+  cto, si -- cut
+  e -- rat in prin -- ci -- pi --
+  o et nunc et sem -- per
+  et in sae -- cu -- la sae -- cu -- lo -- rum, %10
+  a -- men, a --
+  men. %12 finis
+}

@@ -215,3 +215,37 @@ LaudateTenoreLyrics = \lyricmode {
   sae -- cu -- la sae -- cu -- lo -- rum, a --
   men. %34 finis
 }
+
+DominumTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 4/4 \autoBeamOff \tempoDominum
+    r4 \mvTr d8\fE^\tuttiE h16 h a8 g a fis
+    g4 a8 h g4. a8
+    d,4 g g d'
+    d e8 e d2
+    h4 g8 g16 g g8 a a a16 a %5
+    a8 a16 a h8 h h h16 h a4
+    a fis8 g16([ a)] h4.( a8)
+    g4 r e'8 e c d16([ e)]
+    a,4 r8 e' e e d d
+    d d c d16 d e8 g e e %10
+    d d d2.
+    h4 r r2\fermata \bar "|." %12 finis
+  }
+}
+
+DominumTenoreLyrics = \lyricmode {
+  Quo -- ni -- am con -- fir -- ma -- ta
+  est, con -- fir -- ma -- ta
+  est mi -- se -- ri --
+  cor -- di -- a e --
+  ius, glo -- ri -- a Pa -- tri, glo -- ri -- a %5
+  Fi -- li -- o et Spi -- ri -- tu -- i San --
+  cto, si -- cut e --
+  rat in prin -- ci -- pi --
+  o et nunc et sem -- per
+  et in sae -- cu -- la sae -- cu -- lo -- rum, %10
+  a -- men, a --
+  men. %12 finis
+}

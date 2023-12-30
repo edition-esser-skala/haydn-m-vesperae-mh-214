@@ -227,3 +227,37 @@ LaudateAltoLyrics = \lyricmode {
   sae -- cu -- la sae -- cu -- lo -- rum, a --
   men. %34 finis
 }
+
+DominumAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoDominum
+    r4 \mvTr d8\fE^\tuttiE d16 d d8 d d4
+    d c8 h c4 c'
+    c h8 h h4 a
+    a8 a g g16 g g4.( fis8)
+    g4 d8 d16 d e8 e e e16 e %5
+    fis8 fis16 fis fis8 fis e g16 g e4
+    fis r r d8 e16([ fis)]
+    g8 g g fis16([ g)] a4. g8
+    fis h c^\critnote h a a a a
+    g g16 g g8 fis e d a'4~ %10
+    a8 g g([ fis)] g4 fis
+    g r r2\fermata \bar "|." %12 finis
+  }
+}
+
+DominumAltoLyrics = \lyricmode {
+  Quo -- ni -- am con -- fir -- ma --
+  ta, con -- fir -- ma -- ta
+  est su -- per nos mi --
+  se -- ri -- cor -- di -- a e --
+  ius, glo -- ri -- a Pa -- tri, glo -- ri -- a %5
+  Fi -- li -- o et Spi -- ri -- tu -- i San --
+  cto, si -- cut
+  e -- rat in prin -- ci -- pi --
+  o et nunc et sem -- per et in
+  sae -- cu -- la sae -- cu -- lo -- rum, a -- %10
+  men, a -- men, a --
+  men. %12 finis
+}

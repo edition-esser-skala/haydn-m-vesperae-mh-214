@@ -227,14 +227,41 @@ LaudateSopranoLyrics = \lyricmode {
   men, a -- men. %34 finis
 }
 
+DominumSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoDominum
+    \mvTr g'2\fE^\tuttiE d'4. c8
+    h a16 g fis8 g e'2
+    d4 d c4. c8
+    h h h c h4( a8.) a16
+    g4 h8 h16 h cis8 cis cis cis16 cis %5
+    d8 d16 d d8 d d d16 d d8([ cis)]
+    d4 a8 h16([ c)] d4.( c8)
+    h4 h8 a16([ h)] c4. h8
+    a d e d c c d c
+    h h16 h c8 h a g c4~ %10
+    c8 h a4( h a)
+    g r r2\fermata \bar "|." %12 finis
+  }
+}
 
-% Lau -- da -- te Do -- mi -- num, o -- mnes gen -- tes,
-% col -- lau -- da -- te e -- um, o -- mnes po -- pu -- li.
-% Quo -- ni -- am con -- fir -- ma -- ta est su -- per nos mi -- se -- ri -- cor -- di -- a e -- ius,
-% et ve -- ri -- tas Do -- mi -- ni ma -- net in ae -- ter -- num.
-% Glo -- ri -- a Pa -- tri et Fi -- li -- o et Spi -- ri -- tu -- i San -- cto,
-% si -- cut e -- rat in prin -- ci -- pi -- o et nunc et sem -- per
-% et in sae -- cu -- la sae -- cu -- lo -- rum, a -- men.
+DominumSopranoLyrics = \lyricmode {
+  Lau -- da -- te
+  Do -- mi -- num, o -- mnes gen --
+  tes, lau -- da -- te
+  e -- um, o -- mnes po -- pu --
+  li, glo -- ri -- a Pa -- tri, glo -- ri -- a %5
+  Fi -- li -- o et Spi -- ri -- tu -- i San --
+  cto, si -- cut e --
+  rat in prin -- ci -- pi --
+  o et nunc et sem -- per et in
+  sae -- cu -- la sae -- cu -- lo -- rum, a -- %10
+  men, a --
+  men. %12 finis
+}
+
+
 
 % Ma -- gni -- fi -- cat a -- ni -- ma me -- a Do -- mi -- num,
 % et ex -- sul -- ta -- vit spi -- ri -- tus me -- us in De -- o sa -- lu -- ta -- ri me -- o.

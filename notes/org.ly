@@ -231,3 +231,37 @@ LaudateBassFigures = \figuremode {
   <2> <6> <2> <6>4 q8 <4> <3>
   r1 %34 finis
 }
+
+DominumOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \tempoDominum
+    \mvTr g'8\fE-\tuttiE a h g fis e fis d
+    g h a g c, d e fis
+    g a h g e e fis d
+    g fis e c d c d d,
+    g4 g'8 fis e a, a' g %5
+    fis d h' a g e a a,
+    d d, d' c! h h' h, c16 d
+    e8 e, e' d c c' a, h16 c
+    d4 r8 g a g fis fis
+    g fis e d c h a g %10
+    fis g d'4 g d
+    g, r r2\fermata \bar "|." %12 finis
+  }
+}
+
+DominumBassFigures = \figuremode {
+  r2 <6>4. <7>8
+  r <6> q2 q8 <[7]>
+  <4>4 <[6]> <6 5> <5>
+  <9> <10> <6 4> \bo <[5 \t]>8 \bc <[\t 3]>
+  r4. <4 2>8 <6\\> <_+>4 <4\+ 2>8 %5
+  <6>4. <4 2>8 <6 5> <7> <4> <_+>
+  r4. <7 5>16 <8 6> <10 8>4 <\t \t>8 <8 6>
+  <5 3>4. <\t \t>8 <8 6>4 <\t \t>8 <8 6>
+  <5>4. <6 [5]>4 <4 2>8 <6> <[5]>
+  r <4 2> <6> q q q <5> <\t> %10
+  <6 5>4 <4>8 <3> r2
+  r1 %12 finis
+}

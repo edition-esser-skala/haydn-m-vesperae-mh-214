@@ -10,6 +10,7 @@ tempoDixit = \tempoMarkup "Allegro"
 tempoConfitebor = \tempoMarkup "Allegro"
 tempoBeatus = \tempoMarkup "Allegro"
 tempoLaudate = \tempoMarkup "Allegro"
+tempoDominum = \tempoMarkup "Allegro"
 
 
 \include "notes/clno1.ly"
