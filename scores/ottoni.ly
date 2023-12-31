@@ -7,7 +7,7 @@
 
 \book {
   \bookpart {
-    \section "1" "First"
+    \section "1" "Dixit Dominus"
     \addTocEntry
     \paper { indent = 2\cm }
     \score {
@@ -17,18 +17,40 @@
             \set GrandStaff.instrumentName = \transposedName "Clarino" "C" ""
             \new Staff {
               \set Staff.instrumentName = "I"
-              \xxxClarinoI
+              \DixitClarinoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \xxxClarinoII
+              \DixitClarinoII
             }
           >>
         >>
         \new Staff {
           \set Staff.instrumentName = \transposedTimp "C" "" "G" ""
-          \xxxTimpani
+          \DixitTimpani
         }
+      >>
+    }
+    \tacet "section" "Confitebor · Beatus vir · Laudate pueri · Laudate Dominum"
+  }
+  \bookpart {
+    \section "6" "Magnificat"
+    \addTocEntry
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \MagnificatClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \MagnificatClarinoII
+            }
+          >>
+        >>
+        \new Staff { \MagnificatTimpani }
       >>
     }
   }

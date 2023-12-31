@@ -1,21 +1,20 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "org")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
     \section "1" "Dixit Dominus"
     \addTocEntry
-    \paper { indent = 2\cm systems-per-page = #5 }
+    \paper { indent = 2\cm systems-per-page = #7 }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Organo"
-          \DixitOrgano
+          \set Staff.instrumentName = "Violino II"
+          \DixitViolinoII
         }
-        \new FiguredBass { \DixitBassFigures }
       >>
     }
   }
@@ -24,8 +23,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \ConfiteborOrgano }
-        \new FiguredBass { \ConfiteborBassFigures }
+        \new Staff { \ConfiteborViolinoII }
       >>
     }
   }
@@ -35,18 +33,17 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \BeatusOrgano }
-        \new FiguredBass { \BeatusBassFigures }
+        \new Staff { \BeatusViolinoII }
       >>
     }
   }
   \bookpart {
     \section "4" "Laudate pueri"
     \addTocEntry
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \LaudateOrgano }
-        \new FiguredBass { \LaudateBassFigures }
+        \new Staff { \LaudateViolinoII }
       >>
     }
   }
@@ -56,8 +53,7 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \DominumOrgano }
-        \new FiguredBass { \DominumBassFigures }
+        \new Staff { \DominumViolinoII }
       >>
     }
   }
@@ -67,8 +63,7 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \MagnificatOrgano }
-        \new FiguredBass { \MagnificatBassFigures }
+        \new Staff { \MagnificatViolinoII }
       >>
     }
   }
