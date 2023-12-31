@@ -135,3 +135,28 @@ DominumViolinoII = {
     g,4 r r2\fermata \bar "|." %12 finis
   }
 }
+
+MagnificatViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoMagnificat
+    c'16\fE c e g c g f e d a' g f d' h g f
+    e c g' e c' e, c' e, f c' d f, e g c e,
+    d a' g f g d e f e g d g c, e e c
+    h h d g h g d h h h' h, h h h' a a,
+    g g' g, g g g' g, g a-\critnote c h g g g' fis fis %5
+    g h, d g h h a gis a c, a' a a e d c
+    c a' gis e a e d c f a, f' f f g, f' f
+    e g, e' e e f, e' e d f, d' d d e, d' d
+    c e a a h, e^\critnote gis gis a, a c e a e a c
+    h e,, gis h e h' a gis c e, h' e, c' c, e c %10
+    h gis' h a gis gis, gis' gis a a, a' a a a, a' a
+    a a, g g' f a f e d g g, g g g g g
+    c e f d c e c c h h, h'^\critnote h h h c d
+    e e, d d' c c, h h' a a' a, a a a h c
+    a'^\critnote a, g g' f f, e e' d d' d, d d d e f %15
+    g e, d d' c c, h h' a a' a, a d f d d
+    d f c e d8 h' c16 e, c' e, d8 h'
+    c,4 r r2\fermata \bar "|." %18 finis
+  }
+}

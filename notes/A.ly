@@ -261,3 +261,49 @@ DominumAltoLyrics = \lyricmode {
   men, a -- men, a --
   men. %12 finis
 }
+
+MagnificatAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoMagnificat
+    r8 \mvTr e\fE^\tuttiE g e a a g g16 g
+    g4 g r2
+    r8 a^\critnote g g g g16 g g8 g
+    g g h h h4. a8
+    g4. g8 a( g4 fis8) %5
+    g4 r8 gis a4 a8 a
+    a gis e4 f8 f f f16 f
+    e8 e e e16 e d8 d d d
+    c c16 c h4 a e'8 e
+    e e16 e e8 e e e16 e e4 %10
+    e gis8 gis16 gis a4 a
+    a8([ g)] f e d d16 d e8 g
+    g g16 g g4 g r
+    g4. a16([ h)] c8 h a g
+    a g f e d4. e16([ f)] %15
+    g8 f e d c c16 c a'8 a
+    g g g2.
+    g4 r r2\fermata \bar "|." %18 finis
+  }
+}
+
+MagnificatAltoLyrics = \lyricmode {
+  Et ex -- ul -- ta -- vit spi -- ri -- tus
+  me -- us,
+  qui -- a re -- spe -- xit hu -- mi -- li --
+  ta -- tem, o -- mnes ge -- ne --
+  ra -- ti -- o -- %5
+  nes, ti -- men -- ti -- bus
+  e -- um, e -- su -- ri -- en -- tes im --
+  ple -- vit bo -- nis et di -- vi -- tes di --
+  mi -- sit in -- a -- nes, re -- cor --
+  da -- tus mi -- se -- ri -- cor -- di -- ae su -- %10
+  ae, glo -- ri -- a Pa -- tri
+  glo -- ri -- a Fi -- li -- o et Spi --
+  ri -- tu -- i San -- cto,
+  si -- cut e -- rat in prin --
+  ci -- pi -- o et nunc et %15
+  sem -- per et in sae -- cu -- la sae -- cu --
+  lo -- rum, a --
+  men. %18 finis
+}

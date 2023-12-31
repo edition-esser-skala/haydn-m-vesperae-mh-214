@@ -261,19 +261,48 @@ DominumSopranoLyrics = \lyricmode {
   men. %12 finis
 }
 
+MagnificatSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoMagnificat
+    \mvTr c'2\fE^\tuttiE d4 d8 d
+    e4 e8 e f4 e
+    d4. d8 e4 r8 c
+    h4 d d c8 c
+    h h16 h h8 h c h a4 %5
+    g h8 h c c16 h c8 c
+    c16. h32 h8 e4 e d8 d
+    d4 c c h
+    h8 a a([ gis)] a c c c
+    h8. h16 h4 c8 d16 d c4 %10
+    h h8 h16 h c4 c
+    f8([ e)] d c h h16 h c8 d
+    e d16 d e4 d d8 e16([ f)]
+    g8 f e d c8. c16 c8 d16([ e)]
+    f8 e d([ c)] h4 h8 c16([ d)] %15
+    e8 d16 d c8 h a a f' f
+    f e d4( e d)
+    c r r2\fermata \bar "|." %18 finis
+  }
+}
 
-
-% Ma -- gni -- fi -- cat a -- ni -- ma me -- a Do -- mi -- num,
-% et ex -- sul -- ta -- vit spi -- ri -- tus me -- us in De -- o sa -- lu -- ta -- ri me -- o.
-% Qui -- a re -- spe -- xit hu -- mi -- li -- ta -- tem an -- cil -- lae su -- ae.
-% Ec -- ce e -- nim ex hoc be -- a -- tam me di -- cent o -- mnes ge -- ne -- ra -- ti -- o -- nes.
-% Qui -- a fe -- cit mi -- hi ma -- gna, qui po -- tens est, et san -- ctum no -- men e -- ius.
-% Et mi -- se -- ri -- cor -- di -- a e -- ius a pro -- ge -- ni -- e in pro -- ge -- ni -- es ti -- men -- ti -- bus e -- um.
-% Fe -- cit po -- ten -- ti -- am in bra -- chi -- o su -- o, dis -- per -- sit su -- per -- bos men -- te cor -- dis su -- i.
-% De -- po -- su -- it po -- ten -- tes de se -- de et ex -- al -- ta -- vit hu -- mi -- les.
-% E -- su -- ri -- en -- tes im -- ple -- vit bo -- nis et di -- vi -- tes di -- mi -- sit in -- a -- nes.
-% Su -- sce -- pit Is -- ra -- el pu -- e -- rum su -- um, re -- cor -- da -- tus mi -- se -- ri -- cor -- di -- ae su -- ae.
-% Si -- cut lo -- cu -- tus est ad pa -- tres no -- stros, A -- bra -- ham et se -- mi -- ni e -- ius in sae -- cu -- la.
-% Glo -- ri -- a Pa -- tri et Fi -- li -- o et Spi -- ri -- tu -- i San -- cto,
-% si -- cut e -- rat in prin -- ci -- pi -- o et nunc et sem -- per
-% et in sae -- cu -- la sae -- cu -- lo -- rum, a -- men.
+MagnificatSopranoLyrics = \lyricmode {
+  Ma -- gni -- fi -- cat
+  a -- ni -- ma me -- a
+  Do -- mi -- num, ex
+  hoc be -- a -- tam me
+  di -- cent, et san -- ctum no -- men e -- %5
+  ius, a pro -- ge -- ni -- e in pro --
+  ge -- ni -- es, dis -- per -- sit su --
+  per -- bos men -- te
+  cor -- dis su -- i, su -- sce -- pit
+  Is -- ra -- el pu -- e -- rum su -- %10
+  um, glo -- ri -- a Pa -- tri
+  glo -- ri -- a Fi -- li -- o et Spi --
+  ri -- tu -- i San -- cto, si -- cut
+  e -- rat in prin -- ci -- pi -- o et __
+  nunc et sem -- per et in __ %15
+  sae -- cu -- la sae -- cu -- lo -- rum, sae -- cu --
+  lo -- rum, a --
+  men. %18 finis
+}

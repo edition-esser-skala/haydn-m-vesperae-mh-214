@@ -272,68 +272,134 @@
   %     \midi { \tempo 4 = 80 }
   %   }
   % }
+  % \bookpart {
+  %   \section "5" "Laudate Dominum"
+  %   \addTocEntry
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #19.5
+  %     system-system-spacing.minimum-distance = #19.5
+  %     systems-per-page = #2
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \DominumViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \DominumViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \DominumSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \DominumSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \DominumAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \DominumAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \DominumTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \DominumTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \DominumBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \DominumBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \DominumOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \DominumBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
   \bookpart {
-    \section "5" "Laudate Dominum"
+    \section "6" "Magnificat"
     \addTocEntry
-    \paper {
-      top-system-spacing.basic-distance = #10
-      top-system-spacing.minimum-distance = #10
-      top-markup-spacing.basic-distance = #0
-      top-markup-spacing.minimum-distance = #0
-      markup-system-spacing.basic-distance = #10
-      markup-system-spacing.minimum-distance = #10
-      system-system-spacing.basic-distance = #19.5
-      system-system-spacing.minimum-distance = #19.5
-      systems-per-page = #2
-    }
     \score { %\articulate
       <<
+        \new StaffGroup <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+            \partCombine #'(0 . 10) \MagnificatClarinoI \MagnificatClarinoII
+          >>
+        >>
+        \new Staff {
+          \set Staff.instrumentName = "timp"
+          \MagnificatTimpani
+        }
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \DominumViolinoI
+              \MagnificatViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \DominumViolinoII
+              \MagnificatViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \DominumSoprano }
+            \new Voice = "Soprano" { \dynamicUp \MagnificatSoprano }
           }
-          \new Lyrics \lyricsto Soprano \DominumSopranoLyrics
+          \new Lyrics \lyricsto Soprano \MagnificatSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \DominumAlto }
+            \new Voice = "Alto" { \dynamicUp \MagnificatAlto }
           }
-          \new Lyrics \lyricsto Alto \DominumAltoLyrics
+          \new Lyrics \lyricsto Alto \MagnificatAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \DominumTenore }
+            \new Voice = "Tenore" { \dynamicUp \MagnificatTenore }
           }
-          \new Lyrics \lyricsto Tenore \DominumTenoreLyrics
+          \new Lyrics \lyricsto Tenore \MagnificatTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \DominumBasso }
+            \new Voice = "Basso" { \dynamicUp \MagnificatBasso }
           }
-          \new Lyrics \lyricsto Basso \DominumBassoLyrics
+          \new Lyrics \lyricsto Basso \MagnificatBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \DominumOrgano
+            \MagnificatOrgano
           }
         >>
-        \new FiguredBass { \DominumBassFigures }
+        \new FiguredBass { \MagnificatBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 80 }

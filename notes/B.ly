@@ -250,3 +250,49 @@ DominumBassoLyrics = \lyricmode {
   a -- men, a --
   men. %12 finis
 }
+
+MagnificatBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoMagnificat
+    r4 \mvTr e\fE^\tuttiE f( g)
+    c, c'8 h a([ h c)] a
+    f4 g c8 h c4
+    g r d e8 fis
+    g4 g, r d'8 d %5
+    g h gis fis16 e a4 a,
+    r8 e'' c h16 a d8([ c)] h g
+    c h a f! h([ a)] gis e
+    a c,16 d e4 a, a'8. a16
+    e8 e e e16 e a8 gis16 gis a8. a16 %10
+    e4 r a8([ g)] f! e
+    d4. e16 f g8 f e d
+    c g'16 g c,4 g r
+    e'4. f16([ g)] a8 g f e
+    d8. d16 d8 e16([ f)] g8 f e([ d] %15
+    c) c c d16([ e)] f8 e16 e d8 c
+    h c g'4( c g)
+    c, r r2\fermata \bar "|." %18 finis
+  }
+}
+
+MagnificatBassoLyrics = \lyricmode {
+  In De --
+  o sa -- lu -- ta -- ri
+  me -- o, ec -- ce e --
+  nim, et san -- ctum
+  no -- men, et mi -- %5
+  se -- ri -- cor -- di -- a e -- ius,
+  in bra -- chi -- o su -- o, de --
+  po -- su -- it po -- ten -- tes, po --
+  ten -- tes de se -- de, A -- bra --
+  ham et se -- mi -- ni e -- ius in sae -- cu -- %10
+  la, glo -- ri -- a
+  Pa -- tri et Fi -- li -- o, Spi --
+  ri -- tu -- i San -- cto,
+  si -- cut e -- rat in prin --
+  ci -- pi -- o et nunc et sem -- %15
+  per et in sae -- cu -- la sae -- cu --
+  lo -- rum, a --
+  men. %18 finis
+}

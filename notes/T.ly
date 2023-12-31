@@ -249,3 +249,49 @@ DominumTenoreLyrics = \lyricmode {
   a -- men, a --
   men. %12 finis
 }
+
+MagnificatTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoMagnificat
+    r8 \mvTr c\fE^\tuttiE c c c4 h
+    c c8 c c([ d)] g, c
+    c4 h8 h c d e4
+    d r fis,8 fis g([ d')]
+    d4 d8 d d d16 d d8 c %5
+    h4 r e e8 e
+    e16 e e8 r c a4 h
+    g a f gis
+    e8 e' e8. e16 e8 a, a a
+    gis8. gis16 gis8 gis a h a4 %10
+    gis r e' d8 e
+    a,4. a16 a h8([ a g)] h
+    c h16 h c4 h h8 c16([ d)]
+    e8 d c h a8. a16 a8 h16([ c)]
+    f,8 g a4( h8) a g f %15
+    e f16 f g8 g a a d d
+    d c c([ h)] c4 h
+    c r r2\fermata \bar "|." %18 finis
+  }
+}
+
+MagnificatTenoreLyrics = \lyricmode {
+  Et ex -- ul -- ta -- vit
+  spi -- ri -- tus, spi -- ri -- tus
+  me -- us, an -- cil -- lae su --
+  ae, qui -- a fe --
+  cit mi -- hi ma -- gna, qui po -- tens %5
+  est, fe -- cit po --
+  ten -- ti -- am, et ex -- al --
+  ta -- vit, ex -- al --
+  ta -- vit hu -- mi -- les, si -- cut lo --
+  cu -- tus est ad pa -- tres no -- %10
+  stros, glo -- ri -- a
+  Fi -- li -- o et __ Spi --
+  ri -- tu -- i San -- cto, si -- cut
+  e -- rat in prin -- ci -- pi -- o et __
+  nunc et sem -- per et in %15
+  sae -- cu -- la sae -- cu -- lo -- rum, sae -- cu --
+  lo -- rum, a -- men, a --
+  men. %18 finis
+}

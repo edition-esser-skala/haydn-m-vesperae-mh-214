@@ -265,3 +265,49 @@ DominumBassFigures = \figuremode {
   <6 5>4 <4>8 <3> r2
   r1 %12 finis
 }
+
+MagnificatOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoMagnificat
+    \mvTr c8\fE-\tuttiE d e c f e16 d g8 g,
+    c c' c h a h c a
+    f e16 d g8 g, c h c16 d e f
+    g4 r d e8 fis
+    g g, h g fis' g d' d, %5
+    g h gis fis16 e a8 a, c a
+    e' e' c h16 a d8 c h g
+    c h a f! h a gis e
+    a c,16 d e8 e, a a' a a
+    e e gis e a gis a16 a, c a %10
+    e'8 gis16 fis e8 e' a, g f e
+    d d, d' e16 f g8 f e d
+    c g' c c, g' g, g' f
+    e e4 f16 g a8 g f e
+    d d4 e16 f g8 f e d %15
+    c c4 d16 e f8 e d c
+    h c g' g, c c' g4
+    c, r r2\fermata \bar "|." %18 finis
+  }
+}
+
+MagnificatBassFigures = \figuremode {
+  r4 <6> <6 5> <7>
+  r2 <6>
+  <6 5> r8 <6>4.
+  r2 <6 [_+]>4 <6 5>8 <[6 5]>
+  r2 <6 5>4 <4>8 <_+> %5
+  r4 <6 5>2.
+  <6 4>8 <[5] _+> <6>4 <[9]> <10>
+  <9> <10> <9> <10>8 <_+>
+  <9> <6> <4> <_+> r2
+  <_+>4 <6>4. <6 5> %10
+  <_+>2 <3>4. \once \bassFigureExtendersOn q8
+  <10 5>8 <9 4[!]> <5 3> <6> <3> <\t> <6> q
+  r2.. <4 2>8
+  <10 8> <9 7> <8 6> <[6]> <3>4. \once \bassFigureExtendersOn q8
+  <10 8> <9 7> <8 6> <[6]> <3>4. \once \bassFigureExtendersOn q8 %15
+  <10 5>8 <9 4> <8 3> <6> <3> <\t>4 <4 2>8
+  <6 5>4 <4>8 <3> r2
+  r1 %18 finis
+}

@@ -20,3 +20,28 @@ DixitClarinoII = {
     c g8 g16 g e4 r\fermata \bar "|." %14 finis
   }
 }
+
+MagnificatClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoMagnificat
+    c'4\fE r8 c c4 r8 g
+    c,4 r8 c' c4 c8 c
+    d4 g,8 g c g c c16 c
+    g4 r r2
+    r r8 d'16 d d8 d %5
+    d4 r r8 e,16 e e8 e
+    e4 r r2
+    R1
+    r8 e16 e e8 e e4 r
+    e r r e8 e16 e %10
+    e4 r r2
+    r r4 r8 d'
+    c g c c g4 r
+    R1
+    r4 r8 c, g'4 r %15
+    r2 r4 r8 c
+    d c g g c4 g8 g16 g
+    e4 r r2\fermata \bar "|." %18 finis
+  }
+}
